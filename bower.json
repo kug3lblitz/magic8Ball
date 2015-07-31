@@ -1,0 +1,30 @@
+{
+  "name": "magic8Ball",
+  "version": "0.0.1",
+  "authors": [
+    "Patrick Werner <pwerner2@gmail.com>"
+  ],
+  "description": "The Decider",
+  "main": "index.html",
+  "keywords": [
+    "Important",
+    "Decisions",
+    "8",
+    "Ball",
+    "Life",
+    "Choices",
+    "Advice"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jqueryui": "~1.11.4"
+  }
+}

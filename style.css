@@ -1,0 +1,45 @@
+#theDecider {
+    position:absolute;
+    left:100px;
+    top:100px;
+}
+
+#eightBall {
+    left:30px;
+    position:absolute;
+    border-style: solid;
+    border: 3px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+    background-color:black;
+}
+
+#eightBallLogo {
+    position:absolute;
+    border-style: solid;
+    border: 3px;
+    border-radius:50px;
+    width:100px;
+    height:100px;
+    background-color:white;
+    left:5em;
+    top:50px;
+    z-index:1;
+}
+
+#eight {
+    position:absolute;
+    left:2.07em;
+    top:68px;
+    font-size:350%;
+    z-index:2;
+}
+
+#result {
+    position:absolute;
+    left:48px;
+    top:332px;
+    font-size:250%;
+}
+
