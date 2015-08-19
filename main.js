@@ -26,7 +26,7 @@
         document.getElementById("result").innerHTML = "Answer:  " + messages[randomnumber];
     }
 
-    $('#eightBall').click(function () {
+    $('#theDecider').click(function () {
         $('.shake').effect("shake", {
             times: 8,
             direction: "up"
