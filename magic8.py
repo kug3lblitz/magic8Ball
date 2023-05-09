@@ -24,11 +24,11 @@ answers = [
     "Very doubtful",
 ]
 
-question = input("What is your question? ")
+question = str(input("What is your question? "))
 print("Thinking...")
 # 5 second delay with dots
-for i in range(5):
-    print(".")
+for i in range(6):
+    print("." * i)
     time.sleep(1)
 
 print(random.choice(answers))
