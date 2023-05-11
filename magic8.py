@@ -24,11 +24,16 @@ answers = [
     "Very doubtful",
 ]
 
-question = str(input("What is your question? "))
-print("Thinking...")
-# 5 second delay with dots
-for i in range(6):
-    print("." * i)
-    time.sleep(1)
+exit_condition = 'q'
 
-print(random.choice(answers))
+question = str(input("What is your question? "))
+
+while question != exit_condition.lower():
+    print("Thinking...")
+    # 5 second delay with dots
+    for i in range(6):
+        print("." * i)
+        time.sleep(1)
+
+    print(random.choice(answers))
+    question = str(input("What is your question? "))
