@@ -26,7 +26,7 @@ answers = [
 
 exit_condition = 'q'
 
-question = str(input("What is your question? "))
+question = str(input("What is your question? \n"))
 
 while question != exit_condition.lower():
     print("Thinking...")
@@ -36,4 +36,4 @@ while question != exit_condition.lower():
         time.sleep(1)
 
     print(random.choice(answers))
-    question = str(input("What is your question? "))
+    question = str(input("What is your question? (enter 'q' to exit program) \n"))
