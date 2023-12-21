@@ -32,7 +32,7 @@ while question != exit_condition.lower():
     print("Thinking...")
     # 5 second delay with dots
     for i in range(6):
-        if 1 != 0:
+        if i != 0:
             print("." * i)
             time.sleep(1)
 
