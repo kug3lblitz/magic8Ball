@@ -32,8 +32,9 @@ while question != exit_condition.lower():
     print("Thinking...")
     # 5 second delay with dots
     for i in range(6):
-        print("." * i)
-        time.sleep(1)
+        if 1 != 0:
+            print("." * i)
+            time.sleep(1)
 
     print(random.choice(answers))
     question = str(input("What is your question? (enter 'q' to exit program) \n"))
